@@ -201,7 +201,7 @@ function _p9k_read_word() {
 
 function _p9k_fetch_cwd() {
   _p9k__cwd=${(%):-%/}
-  _p9k__cwd_a=${_p9k__cwd:A}
+  _p9k__cwd_a=${_p9k__cwd}
 
   case $_p9k__cwd in
     ~|/)
